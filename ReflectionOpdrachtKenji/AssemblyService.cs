@@ -11,6 +11,7 @@ namespace ReflectionOpdrachtKenji
     {
         public List<string> AllAssemblyItems { get; set; }
         public List<Type> AllAssemblyTypes { get; set; }
+        public Assembly Assembly { get; set; }
 
         public AssemblyService()
         {
@@ -19,7 +20,8 @@ namespace ReflectionOpdrachtKenji
 
         public void GetAllAssemblyItems()
         {
-            AllAssemblyTypes = Assembly.LoadFile(@"C:\Users\CDHel\Desktop\Reflection opdracht\ReflectThis").GetTypes().Where(type => type.IsClass).ToList();
+            Assembly = Assembly.LoadFile(@"C:\Users\CDHel\Desktop\Reflection opdracht\ReflectThis");
+            AllAssemblyTypes = Assembly.GetTypes().Where(type => type.IsClass).ToList();
 
             FormatToListString(AllAssemblyTypes);
         }
