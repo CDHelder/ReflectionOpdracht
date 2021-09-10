@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionOpdrachtKenji", "ReflectionOpdrachtKenji\ReflectionOpdrachtKenji.csproj", "{D0F285DD-D707-4F5B-999E-3687FF0EF3EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0F285DD-D707-4F5B-999E-3687FF0EF3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F285DD-D707-4F5B-999E-3687FF0EF3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F285DD-D707-4F5B-999E-3687FF0EF3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F285DD-D707-4F5B-999E-3687FF0EF3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BBA3C30-94DC-44A9-9749-B2C225019236}
+	EndGlobalSection
+EndGlobal
